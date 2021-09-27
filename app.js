@@ -49,9 +49,9 @@ function correctAction() {
     win = true;
 }
 
-function wrongAction(index) {
+function wrongAction(secondpage) {
     //1- change the cup image into X 
-    document.getElementById(index).src = 'images/wrong.jpg'
+    document.getElementById(secondpage).src = 'images/wrong.jpg'
 
     //2- decrease number of wrong lives 
     wrongLives--;
